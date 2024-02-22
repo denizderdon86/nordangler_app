@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "219082891653",
+    "project_id": "new-nord-angler-app",
+    "storage_bucket": "new-nord-angler-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219082891653:android:5d7a10d5dd1398ec7724ec",
+        "android_client_info": {
+          "package_name": "com.example.nordangler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTv3LWtBq55_STb8VAfnTT4cvMpDslNV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

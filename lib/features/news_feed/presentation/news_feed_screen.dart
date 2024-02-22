@@ -11,7 +11,6 @@ class NewsFeedScreen extends StatelessWidget {
     return Scaffold(
       drawer: const Drawer(
         backgroundColor: Colors.white70,
-        semanticLabel: "Hauptmenü",
       ),
       appBar: AppBar(
         toolbarHeight: 115,
@@ -31,7 +30,7 @@ class NewsFeedScreen extends StatelessWidget {
         title: const Text(
           'Neuigkeiten',
           style: TextStyle(
-              fontSize: 40, fontWeight: FontWeight.w700, color: Colors.white70),
+              fontSize: 44, fontWeight: FontWeight.w700, color: Colors.white70),
         ),
       ),
       body: const SafeArea(

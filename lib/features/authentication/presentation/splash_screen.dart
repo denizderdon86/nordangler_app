@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp1> {
 
   ///hide your splash screen
   Future<void> hideScreen() async {
-    Future.delayed(const Duration(milliseconds: 8600), () {
+    Future.delayed(const Duration(milliseconds: 8900), () {
       FlutterSplashScreen.hide();
     });
   }
@@ -29,9 +29,11 @@ class _MyAppState extends State<MyApp1> {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Image.asset(
-          'assets/images/intro.gif',
-          fit: BoxFit.contain,
-        ));
+        home: Scaffold(
+            backgroundColor: Colors.black,
+            body: Image.asset(
+              'assets/images/lo.gif',
+              fit: BoxFit.fill,
+            )));
   }
 }

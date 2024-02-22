@@ -31,9 +31,9 @@ class CurvedNavBar extends StatelessWidget {
           size: 32,
         ),
       ],
-      color: const Color.fromARGB(255, 252, 252, 252),
+      color: Colors.white,
       buttonBackgroundColor: Colors.white,
-      backgroundColor: Colors.lightBlueAccent.shade700,
+      backgroundColor: const Color.fromARGB(255, 5, 115, 148),
       animationCurve: Curves.easeInOut,
       animationDuration: const Duration(milliseconds: 600),
       onTap: (index) {
